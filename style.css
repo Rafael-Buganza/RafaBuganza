@@ -1,0 +1,36 @@
+
+    /* Estilo para os botões */
+    button {
+        padding: 15px 25px;
+        font-size: 20px;
+        color: #fff;
+        background-color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    /* Estilo para quando o mouse estiver sobre os botões */
+    button:hover {
+        background-color: #0062cc;
+    }
+
+    .navbar-item{
+        display: flex;
+        padding: 15px 25px;
+        font-size: 20px;
+        color: #fff;
+        background-color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+
+<!-- Os botões com o estilo aplicado -->
+<button onclick="window.location.href='cadastro.html'">Instagram</button><br><br>
+<button onclick="window.location.href='consulta.html'">Linkedin</button><br><br>
+<button onclick="window.location.href='venda.html'">GitHub</button><br><br>
+<button onclick="window.location.href='relatorio.html'">Facebook</button>
